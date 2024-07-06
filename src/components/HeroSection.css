@@ -208,3 +208,21 @@ margin: 3rem;
     justify-content: center !important;
   }
 }
+
+@media screen and (max-width: 851px) {
+  /* CSS styles specific to screens up to 600px wide */
+  .hero-section {
+    display: flex;
+    flex-direction:column;
+  justify-content: center;
+ 
+  }
+
+  .btn1{
+    position: relative;
+    bottom: 19rem;
+    left: 5.4rem;
+  }
+}
+
+
